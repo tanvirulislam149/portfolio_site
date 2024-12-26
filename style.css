@@ -21,3 +21,13 @@
 .banner_img {
   text-align: center;
 }
+
+@media screen and (max-width: 992px) {
+  .banner_half {
+    width: 100%;
+    margin: 10px;
+  }
+  .banner_title {
+    font-size: 40px;
+  }
+}
