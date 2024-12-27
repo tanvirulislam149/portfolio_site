@@ -1,4 +1,4 @@
-* {
+body {
   margin: 0px;
   padding: 0px;
   background-color: black;
@@ -20,6 +20,14 @@
 
 .banner_img {
   text-align: center;
+}
+
+span.carousel-control-next-icon {
+  background-color: transparent;
+}
+
+span.carousel-control-prev-icon {
+  background-color: transparent;
 }
 
 @media screen and (max-width: 992px) {
