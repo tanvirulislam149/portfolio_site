@@ -30,6 +30,18 @@ span.carousel-control-prev-icon {
   background-color: transparent;
 }
 
+.contact_cont {
+  width: 50%;
+  margin: 0px auto;
+  box-shadow: 2px 2px 10px 2px lightblue;
+  padding: 30px;
+}
+
+.contact_cont > div {
+  width: 75%;
+  margin: 0px auto;
+}
+
 @media screen and (max-width: 992px) {
   .banner_half {
     width: 100%;
@@ -37,5 +49,9 @@ span.carousel-control-prev-icon {
   }
   .banner_title {
     font-size: 40px;
+  }
+  .contact_cont {
+    width: 95%;
+    padding: 10px;
   }
 }
